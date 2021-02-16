@@ -4,7 +4,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  has_to_read = {location: 'New York City', occupation: 'Student'}
+  hash_to_read = {location: 'New York City', occupation: 'Student'}
   read_from_hash(hash_to_read, :occupation)
 end
 
