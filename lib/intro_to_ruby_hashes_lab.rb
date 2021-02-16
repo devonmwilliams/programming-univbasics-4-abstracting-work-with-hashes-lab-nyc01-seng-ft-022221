@@ -4,9 +4,9 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
+  hash_to_read = {location: "NYC", occupation: "Student"}
   read_from_hash(hash_to_read, :location)
   read_from_hash(hash_to_read, :occupation)
-  hash_to_read = {location: "NYC", occupation: "Student"}
 end
 
 def update_counting_hash(hash, key)
