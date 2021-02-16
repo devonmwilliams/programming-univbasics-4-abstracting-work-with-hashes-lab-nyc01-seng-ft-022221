@@ -1,6 +1,7 @@
 def my_hash_creator(key, value)
   my_hash_creator(:name, "Devon")
-  my_hash_creator(:age, 100)
+  my_hash_creator(:id, 100)
+  my_hash_creator("age", 39)
 end
 
 def read_from_hash(hash, key)
