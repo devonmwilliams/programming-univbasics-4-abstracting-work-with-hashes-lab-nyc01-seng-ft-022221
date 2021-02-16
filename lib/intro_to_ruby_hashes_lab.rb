@@ -4,8 +4,8 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  read_from_hash(:name, "Devon")
-  read_from_hash({'name' => 'Dev'})
+  has_to_read = {location: 'New York City', occupation: 'Student'}
+  read_from_hash(hash_to_read, :occupation)
 end
 
 def update_counting_hash(hash, key)
